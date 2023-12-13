@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Can</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- ICONOS -->
+    <script
+      src="https://kit.fontawesome.com/2ee0245f3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ANIMATE -->
+    <link rel="stylesheet" href="librerias/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Fancybox -->
+    <script
+      type="text/javascript"
+      src="librerias/fancybox/fancybox.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="librerias/fancybox/fancycss.css"
+      type="text/css"
+      media="screen"
+    />
+    <!-- SLIDERESPOSIVE -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="librerias/resposiveslides/responsiveslides.min.js"></script>
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/movil.css" />
+    <!-- carrousel -->
+    <link
+      rel="stylesheet"
+      href="librerias/libreria_carrousel_js/carrousel.css"
+      s
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav_container">
+        <div class="toptop_container">
+          <div class="top_container">
+            <div class="menu">
+              <i id="iconomenu" class="fas fa-bars fa"></i>
+            </div>
+            <a href="#">
+              <img src="imagenes/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="redesTop">
+            <div class="iconos">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.twitter.com/" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://www.google.com/" target="_blank"
+                ><i class="fab fa-google"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <nav>
+          <ul id="menu" class="navbar">
+            <li>
+              <a href="#home"><p>HOME</p></a>
+            </li>
+            <li>
+              <a href="#aboutus"><p>ABOUT US</p></a>
+            </li>
+            <li>
+              <a href="#menus"><p>MENU</p></a>
+            </li>
+            <li>
+              <a href="#faqs"><p>FAQs</p></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="contenedor_fotos">
+      <ul class="rslides">
+        <li>
+          <img src="imagenes/slide1.jpg" alt="slide1" />
+        </li>
+        <li>
+          <img src="imagenes/slide2.jpg" alt="slide2" />
+        </li>
+        <li>
+          <img src="imagenes/slide3.jpg" alt="slide3" />
+        </li>
+      </ul>
+      <div class="textoslide">
+        <div class="decoracion">
+          <hr />
+          <h5>Your Favourite</h5>
+          <hr />
+        </div>
+        <h1
+          class="wow animate__animated animate__pulse animate__infinite animate__slow"
+        >
+          FOOD DELIVERY SERVICE
+        </h1>
+        <p>
+          Welcome to Food Delivery, a place where you can order your favorite
+          restaurant dishes, drinks, and desserts at affordable price. We are
+          glad to offer you the best food in the area to everyone.
+        </p>
+        <div>
+          <a class="btn1" id="btn">ORDER ONLINE</a>
+        </div>
+      </div>
+    </section>
+    <section id="aboutus" class="section_about">
+      <div class="contenedor_about ancho">
+        <div class="imagen_about">
+          <img src="imagenes/about.png" alt="about" />
+        </div>
+        <div class="texto_about">
+          <h1>A Few Words About Food Delivery</h1>
+          <p>
+            Food Delviery, one of today’s most renowned food delviery services,
+            was established in 2013, as a quick and secure method to order
+            something for anyone with any taste - from burger lovers to fans of
+            sushi and seafood.
+          </p>
+          <div class="stats">
+            <div class="statsone">
+              <h1 class="wow animate__animated animate__bounceIn">20</h1>
+              <p><i class="fa-solid fa-list"></i> ORDERS MADE</p>
+            </div>
+            <div class="statsone">
+              <h1 class="wow animate__animated animate__bounceIn">1300</h1>
+              <p><i class="fa-solid fa-truck"></i> PIZZAS DELIVERED</p>
+            </div>
+            <div class="statsone">
+              <h1 class="wow animate__animated animate__bounceIn">564</h1>
+              <p><i class="fa-solid fa-users"></i> CLIENTS EVERYDAY</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menus" class="contenedor_menu">
+      <h1>Our Menu</h1>
+      <div class="fotos">
+        <a
+          href="imagenes/menu1.png"
+          data-fancybox="gallery"
+          data-caption="Sushi"
+        >
+          <figure>
+            <img src="imagenes/menu1.png" alt="imagen" />
+          </figure>
+        </a>
+        <a
+          href="imagenes/menu2.png"
+          data-fancybox="gallery"
+          data-caption="Burgers"
+        >
+          <!-- <figure> -->
+          <img src="imagenes/menu2.png" alt="imagen" />
+          <!-- </figure> -->
+        </a>
+        <a
+          href="imagenes/menu3.png"
+          data-fancybox="gallery"
+          data-caption="Pizzas"
+        >
+          <!-- <figure> -->
+          <img src="imagenes/menu3.png" alt="imagen" />
+          <!-- </figure> -->
+        </a>
+        <a
+          href="imagenes/menu4.png"
+          data-fancybox="gallery"
+          data-caption="Barbecue"
+        >
+          <!-- <figure> -->
+          <img src="imagenes/menu4.png" alt="imagen" />
+          <!-- </figure> -->
+        </a>
+        <a
+          href="imagenes/menu5.png"
+          data-fancybox="gallery"
+          data-caption="Sandwiches"
+        >
+          <!-- <figure> -->
+          <img src="imagenes/menu5.png" alt="imagen" />
+          <!-- </figure> -->
+        </a>
+        <a
+          href="imagenes/menu6.png"
+          data-fancybox="gallery"
+          data-caption="Tacos"
+        >
+          <!-- <figure> -->
+          <img src="imagenes/menu6.png" alt="imagen" />
+          <!-- </figure> -->
+        </a>
+      </div>
+    </section>
+    <section class="contenedor_team ancho">
+      <section id="carousel" class="contenedor_titulo">
+        <div id="slide-container">
+          <article class="slide" data-slideIndex="0">
+            <figure>
+              <img src="imagenes/carrousel1.jpg" alt="carrousel" />
+            </figure>
+            <h4>Quality Delivery</h4>
+            <p>
+              l'd like to acknowledge Food Delivery for their pleasant help
+              today when I called to place a last minute order for a meeting. I
+              struggled with what to order and your team helped with selection
+              and made everything easy for me.
+            </p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </article>
+          <article class="slide" data-slideIndex="1">
+            <figure>
+              <img src="imagenes/carrousel2.jpg" alt="carrousel" />
+            </figure>
+            <h4>The Best Food Delivery Service</h4>
+            <p>
+              I am very grateful to have this service in our city. You make
+              dinner a no-brainer on those crazy/lazy nights. I also wanted you
+              to know that everyone of the delivery people have been the nicest
+              and most polite people.
+            </p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </article>
+          <article class="slide" data-slideIndex="2">
+            <figure>
+              <img src="imagenes/carrousel3.jpg" alt="carrousel" />
+            </figure>
+            <h4>Perfect and Tasty Desserts</h4>
+            <p>
+              Thanks so much for the gorgeous strawberry cake and desserts on
+              Saturday. We loved that cake - so beautiful and yummy!
+            </p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </article>
+          <article class="slide" data-slideIndex="3">
+            <figure>
+              <img src="imagenes/carrousel4.jpg" alt="carrousel" />
+            </figure>
+            <h4>High Quality Service</h4>
+            <p>
+              Your female employee on the phone was so kind yesterday! She took
+              my order, got it exactly correct; and my food arrived. The
+              delivery man was also very good. The level of service wa also
+              outstanding, thank you!
+            </p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </article>
+        </div>
+      </section>
+      <article class="our_team">
+        <div class="slide-buttons">
+          <a id="back-button" class="arrow back"
+            ><i class="fa-solid fa-arrow-left"></i
+          ></a>
+          <a id="forward-button" class="arrow forward"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </article>
+    </section>
+    <section class="contenedor_video ancho">
+      <article class="videoart">
+        <div id="contenedoryoutube">
+          <iframe
+            src="https://www.youtube.com/embed/OZzoAw9QHXY?si=wdcK08mAcuJdNcJD"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
+    </section>
+    <section id="faqs" class="contenedorAcordeon">
+      <h1>General Questions</h1>
+      <p>All you need to know about Food Delivery and our services.</p>
+      <div class="contenedorCaja">
+        <div class="acordeon_titulo ancho">
+          <h3>What if something is wrong with my order?</h3>
+          <div class="vermas">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+        </div>
+        <div class="acordeon_contenido2 ancho">
+          <p>
+            We have a dedicated customer service team that looks after your
+            entire Food Delivery experience from the moment you place an order
+            on our website through to it arriving at your doorstep. However, we
+            do understand that sometimes things might go wrong. In the rare case
+            that this happens, you can always contact us at mail@demolink.org or
+            on +1 800 123 4567 and we will look into this for you.
+          </p>
+        </div>
+      </div>
+      <div class="contenedorCaja">
+        <div class="acordeon_titulo ancho">
+          <h3>What if my order is late?</h3>
+          <div class="vermas">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+        </div>
+        <div class="acordeon_contenido2 ancho">
+          <p>
+            Our managers and couriers are always hopping along as quickly as
+            they can, but sometimes things outside of our control can cause a
+            delay. Where we can, we will always try and proactively call you if
+            we feel that your order might not arrive within the estimated time
+            of delivery, and our team will be working to get your order to you
+            as quickly as possible.
+          </p>
+        </div>
+      </div>
+      <div class="contenedorCaja">
+        <div class="acordeon_titulo ancho">
+          <h3>Can I track my order?</h3>
+          <div class="vermas">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+        </div>
+        <div class="acordeon_contenido2 ancho">
+          <p>
+            Our managers and couriers are always hopping along as quickly as
+            they can, but sometimes things outside of our control can cause a
+            delay. Where we can, we will always try and proactively call you if
+            we feel that your order might not arrive within the estimated time
+            of delivery, and our team will be working to get your order to you
+            as quickly as possible.
+          </p>
+        </div>
+      </div>
+      <div class="contenedorCaja">
+        <div class="acordeon_titulo ancho">
+          <h3>Can I get a refund?</h3>
+          <div class="vermas">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+        </div>
+        <div class="acordeon_contenido2 ancho">
+          <p>
+            There are a few factors that we have to consider before we can issue
+            a refund. Did your food not arrive or were you not able to receive
+            your order and our courier left? If a refund is granted, just know
+            that it will take about 5-7 business days, depending on your bank,
+            before any money is back in your account.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="contflexfooter ancho">
+        <div class="contflexinfo">
+          <div class="formulario">
+            <div class="suscribetext">
+              <h2>Subscribe</h2>
+              <p>Get the latest updates and offers</p>
+            </div>
+            <form action="#">
+              <input type="email" placeholder="Your Email" required />
+              <button class="btn1" type="submit">SUSCRIBE</button>
+            </form>
+          </div>
+          <div class="duocontainer">
+            <div class="followus">
+              <h2>Follow us</h2>
+              <div class="redes">
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="https://www.twitter.com/" target="_blank"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.google.com/" target="_blank"
+                  ><i class="fab fa-google"></i
+                ></a>
+              </div>
+            </div>
+            <div class="followus">
+              <h2>Contact Us</h2>
+              <div class="redes">
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fa-solid fa-phone"></i>
+                </a>
+                <div class="text">
+                  <h3>+1 (409) 987–5874</h3>
+                  <p>We work every day 9:00–23:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="derechos">
+          <p>@2023 All Rights Reserved | <a href="#">Privacvy Policy</a></p>
+        </div>
+      </div>
+    </footer>
+    <button id="scroll-to-top" class="btn btn-primary btn-circle btn-lg">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+    <article class="modalcontacto" id="modal">
+      <div class="contactoform">
+        <form action="#">
+          <h1>Get in Touch</h1>
+          <p>
+            We are available 24/7 by fax, e-mail or by phone. You can also use
+            our quick contact form to ask a question about our services that we
+            offer on a regular basis. We would be pleased to answer your
+            questions.
+          </p>
+          <div class="inputsform">
+            <div class="duo">
+              <div>
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div>
+                <label for="phone">Phone:</label>
+                <input
+                  type="number"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter phone"
+                  required
+                />
+              </div>
+            </div>
+            <div class="column">
+              <label for="message">Your Message:</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Write your message here"
+                required
+              ></textarea>
+            </div>
+            <div class="duo">
+              <div class="column">
+                <label for="email">E-mail:</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div>
+                <button class="btn1" onclick="validateForm()">
+                  Send message
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="imagenmodal">
+          <img src="imagenes/modal.jpg" alt="modal" />
+        </div>
+        <a href="#" id="cerrar">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </a>
+      </div>
+    </article>
+    <script>
+      // validaciones
+      function validateForm() {
+        var name = document.getElementById("name").value;
+        var phone = document.getElementById("phone").value;
+        var message = document.getElementById("message").value;
+        var email = document.getElementById("email").value;
+
+        if (name == "") {
+          alert("Please enter your name");
+          return false;
+        }
+
+        if (phone == "") {
+          alert("Please enter your phone number");
+          return false;
+        }
+
+        if (message == "") {
+          alert("Please enter your message");
+          return false;
+        }
+
+        if (email == "") {
+          alert("Please enter your email address");
+          return false;
+        }
+
+        if (!validateEmail(email)) {
+          alert("Please enter a valid email address");
+          return false;
+        }
+
+        if (!validatePhoneNumber(phone)) {
+          alert("Please enter a valid phone number");
+          return false;
+        }
+
+        return true;
+      }
+
+      function validateEmail(email) {
+        var re =
+          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+      }
+
+      function validatePhoneNumber(phone) {
+        var re = /^[0-9]{10}$/;
+        return re.test(phone);
+      }
+    </script>
+    <script>
+      //funciones menu
+      $("#iconomenu").click(function () {
+        $("#menu").slideToggle();
+      });
+    </script>
+    <script>
+      $(function () {
+        $(".rslides").responsiveSlides({
+          auto: false,
+          pager: false,
+          nav: true,
+          speed: 500,
+          namespace: "callbacks",
+          before: function () {
+            $(".events").append("<li>before event fired.</li>");
+          },
+          after: function () {
+            $(".events").append("<li>after event fired.</li>");
+          },
+        });
+      });
+    </script>
+    <script src="librerias/animate/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+    </script>
+    <!-- acordeon -->
+    <script>
+      $(document).ready(function () {
+        const acordeon_contenido2s = $(".acordeon_contenido2");
+
+        acordeon_contenido2s.hide();
+
+        $(".acordeon_titulo").click(function () {
+          var t = $(this);
+          var tp = t.next();
+          tp.slideToggle();
+
+          // Cambiar el ícono
+          var icon = t.find(".vermas i");
+          if (icon.hasClass("fa-circle-plus")) {
+            icon.removeClass("fa-circle-plus").addClass("fa-circle-minus");
+          } else {
+            icon.removeClass("fa-minus").addClass("fa-circle-plus");
+          }
+        });
+      });
+    </script>
+    <script src="librerias/libreria_carrousel_js/carrousel.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Scroll to top button
+        $("#scroll-to-top").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            500
+          );
+        });
+      });
+    </script>
+    <script>
+      var fondomodal = document.getElementById("modal");
+      var btn = document.getElementById("btn");
+      var cerrar = document.getElementById("cerrar");
+
+      function tiempo() {
+        fondomodal.style.display = "flex";
+      }
+      setTimeout(tiempo, 500);
+
+      btn.onclick = function () {
+        fondomodal.style.display = "flex";
+      };
+
+      cerrar.onclick = function () {
+        fondomodal.style.display = "none";
+      };
+
+      window.onclick = function (e) {
+        if (e.target == fondomodal) {
+          fondomodal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
