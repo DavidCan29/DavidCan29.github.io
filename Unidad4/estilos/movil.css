@@ -1,0 +1,162 @@
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+  .ancho {
+    width: 400px;
+  }
+
+  .nav_container {
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--naranja);
+    margin-bottom: 0;
+    min-height: 0;
+    padding: 0;
+  }
+
+  .top_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .menu {
+    display: flex;
+    color: var(--gris);
+    font-size: 40px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .navbar {
+    position: relative;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    padding: 0;
+    display: none;
+  }
+  .navbar li {
+    margin: auto;
+    width: 100%;
+  }
+  .navbar li a {
+    width: 100%;
+    display: flex;
+  }
+  .navbar li a:hover p {
+    color: var(--verde);
+    background-color: var(--gris);
+    font-weight: bold;
+  }
+  nav {
+    width: 100%;
+  }
+
+  .iconos {
+    display: none;
+  }
+
+  .rslides img {
+    height: auto;
+  }
+
+  .textoslide {
+    max-width: 380px;
+  }
+  .textoslide h1 {
+    font-size: 35px;
+  }
+  .section_about {
+    padding: 20px 0;
+  }
+  .contenedor_about .imagen_about {
+    display: none;
+  }
+  .contenedor_about .texto_about {
+    width: 100%;
+  }
+  .stats .statsone h1 {
+    font-size: 35px;
+  }
+  .stats .statsone p {
+    text-align: center;
+  }
+
+  .slide {
+    min-width: 100% !important;
+  }
+  .contflexinfo {
+    flex-direction: column;
+  }
+  .duocontainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .followus {
+    align-items: center;
+  }
+  .suscribetext {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+    /* border: 1px red solid; */
+  }
+  .modalcontacto .contactoform {
+    width: 400px;
+    padding: 30px 30px;
+    background-color: var(--blanco);
+    border-radius: 15px;
+    text-align: left;
+  }
+  .modalcontacto .contactoform form {
+    width: 100%;
+  }
+  .modalcontacto .contactoform .imagenmodal {
+    display: none;
+  }
+  .modalcontacto .contactoform form .inputsform .duo {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .modalcontacto .contactoform form .inputsform .duo div {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .modalcontacto .contactoform form .inputsform .duo .btnduo {
+    justify-content: center;
+    display: flex;
+  }
+  .modalcontacto .contactoform form .inputsform {
+    align-items: start;
+  }
+  .modalcontacto .contactoform form .inputsform .column {
+    width: 100%;
+  }
+  form input,
+  textarea {
+    width: 100%;
+  }
+}
